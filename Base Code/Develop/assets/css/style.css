@@ -9,6 +9,9 @@ Also reordered the CSS elements to be more functional in grouping.
 /*Added "alt" accessibility to icons and images. Additionally added a "title"
 to the background image to function similarly to an "alt"*/
 
+/*Changed footer heading attributes to better fit a proper header hierachy.
+Also updated CSS*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -37,12 +40,17 @@ h2 {
 }
 
 h3 {
+    font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
 }
 
 .seo {
