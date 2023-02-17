@@ -12,6 +12,8 @@ to the background image to function similarly to an "alt"*/
 /*Changed footer heading attributes to better fit a proper header hierachy.
 Also updated CSS*/
 
+/*Small change to add a working "title" to <head>*/
+
 * {
     box-sizing: border-box;
     padding: 0;
