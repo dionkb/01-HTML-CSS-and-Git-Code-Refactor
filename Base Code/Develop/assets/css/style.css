@@ -14,6 +14,9 @@ Also updated CSS*/
 
 /*Small change to add a working "title" to <head>*/
 
+/*Made some changes to have a better overall layout, and to have a well
+maintained layout even when scaling*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -25,7 +28,14 @@ body {
 }
 
 header {
-    padding: 20px;
+    display: flex;
+    /* changed to flex to allow for scaling and better mobile layout*/
+    position: relative;
+    justify-content: space-between;
+    /*changed justify-content to better maintain layout with scaling*/
+    width: 100%;
+    height: auto;
+    padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -43,7 +53,8 @@ h2 {
 
 h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    /*replaced "margin-bottom" with "margin-top" to have better spacing */
     text-align: center;
 }
 
@@ -60,9 +71,8 @@ h5 {
 }
 
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    display: flexbox;
+    margin: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -128,7 +138,8 @@ p {
 
 .benefits img {
     display: block;
-    margin: 10px auto;
+    margin: auto;
+    /*remove 10px margin at top and bottom, I think it looks better */
     max-width: 150px;
 }
 
