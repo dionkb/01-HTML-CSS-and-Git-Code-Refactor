@@ -6,6 +6,9 @@ and updated the corresponding elements in the CSS file*/
 Also reordered the CSS elements to be more functional in grouping.
 */
 
+/*Added "alt" accessibility to icons and images. Additionally added a "title"
+to the background image to function similarly to an "alt"*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -81,16 +84,6 @@ p {
     font-size: 16px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
@@ -127,6 +120,16 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 footer {
