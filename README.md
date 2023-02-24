@@ -7,7 +7,8 @@ This project was completed in order to learn and utilize the techniques we were 
 A sample html code and css sheet were provided, and we were tasked with refactoring it according to the various acceptance criteria presented to us. 
 The project allowed us to showcase what we have learned, as well as presenting problems that we might need to research independently to obtain solutions. 
 
-Screenshot of final output: ./assets/images/Screenshot
+Screenshot of final output: ![Screenshot](https://user-images.githubusercontent.com/64495259/221268722-2838e676-63ef-4e4f-a384-60b64765dc0e.PNG)
+
 
 Link to the GitHub repository: https://github.com/dionkb/01-HTML-CSS-and-Git-Code-Refactor.git
 
