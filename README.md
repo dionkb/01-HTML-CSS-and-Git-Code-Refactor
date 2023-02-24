@@ -9,7 +9,6 @@ The project allowed us to showcase what we have learned, as well as presenting p
 
 Screenshot of final output: ![Screenshot](https://user-images.githubusercontent.com/64495259/221268722-2838e676-63ef-4e4f-a384-60b64765dc0e.PNG)
 
-
 Link to the GitHub repository: https://github.com/dionkb/01-HTML-CSS-and-Git-Code-Refactor.git
 
 ## Getting Started
