@@ -1,33 +1,14 @@
-/*Added HTML semantic language to index file, 
-and updated the corresponding elements in the CSS file*/
-
-/*Removed reduntant code in index to better structure the file. 
-(see bottom for removed code).
-Also reordered the CSS elements to be more functional in grouping.
-*/
-
-/*Added "alt" accessibility to icons and images. Additionally added a "title"
-to the background image to function similarly to an "alt"*/
-
-/*Changed footer heading attributes to better fit a proper header hierachy.
-Also updated CSS*/
-
-/*Small change to add a working "title" to <head>*/
-
-/*Made some changes to have a better overall layout, and to have a well
-maintained layout even when scaling*/
-
-* {
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /*changes the color of the entire page's background*/
     background-color: #d9dcd6;
 }
 
-header {
+header { /*sets styling for company header as well as nav-bar links at top of page*/
     display: flex;
     /* changed to flex to allow for scaling and better mobile layout*/
     position: relative;
@@ -41,52 +22,52 @@ header {
     color: #ffffff;
 }
 
-h1 {
+h1 { /*styling for "Horiseon" name in header bar*/
     display: inline-block;
     font-size: 48px;
 }
 
-h2 {
+h2 { /*styling for main three content block headers*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-h3 {
+h3 { /*styling for "Lead Generation, Brand Awarenes, etc. on right side of page */
     font-size: 18px;
     margin-top: 20px;
     /*replaced "margin-bottom" with "margin-top" to have better spacing */
     text-align: center;
 }
 
-h4 {
+h4 { /*styling for headline of the footer*/
     font-size: 16px;
 }
 
-h5 {
+h5 { /*styling for subline of the footer*/
     font-size: 14px;
 }
 
-.seo {
+.seo { /*styling for the letter "SEO" in company title header at top of page */
     color: #d9dcd6;
 }
 
-nav {
+nav { /*styling for the nav-bar text elements in the top right of the page */
     display: flexbox;
     margin: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-nav ul {
+nav ul { /*styling for the nav-bar text elements in the top right of the page */
     list-style-type: none;
 }
 
-nav ul li {
+nav ul li { /*styling for the nav-bar text elements in the top right of the page */
     display: inline-block;
     margin-left: 25px;
 }
 
-.background-image {
+.background-image { /*styling for the main large banner image below the header */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -95,22 +76,22 @@ nav ul li {
     background-position: center;
 }
 
-a {
+a { /*styling for nav-bar links at top right of page */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /*styling for text in paragraphs throughout page*/
     font-size: 16px;
 }
 
-.content {
+.content { /*styling for three main content blocks on mid-to-lower left hand side of page*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content-blocks {
+.content-blocks { /*styling for three main content blocks on mid-to-lower left hand side of page*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,11 +100,11 @@ p {
     color: #ffffff;
 }
 
-.content-blocks img {
+.content-blocks img { /*styling for three main content block images on mid-to-lower left hand side of page*/
     max-height: 200px;
 }
 
-.benefits {
+.benefits { /*styling for smaller content blocks on mid-to-lower right hand side of page*/
     margin-right: 20px;
     margin-bottom: 32px;
     padding: 20px;
@@ -136,24 +117,24 @@ p {
     color: #ffffff;
 }
 
-.benefits img {
+.benefits img { /*styling for smaller content block images on mid-to-lower right hand side of page*/
     display: block;
     margin: auto;
     /*remove 10px margin at top and bottom, I think it looks better */
     max-width: 150px;
 }
 
-.float-left {
+.float-left { /*styling for design and layout for images in main content blocks*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /*styling for design and layout for images in main content blocks*/
     float: right;
     margin-left: 25px;
 }
 
-footer {
+footer { /*styling for the footer content at the bottom of the page*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -286,3 +267,26 @@ Replaced with ".content-blocks img" and "h2" selectors.
 }
 
 */
+
+/* ---------------------------------END of CODE, NOTES on UPDATE HISTORY BELOW------------------------------------------ */
+
+/*Added HTML semantic language to index file, 
+and updated the corresponding elements in the CSS file*/
+
+/*Removed reduntant code in index to better structure the file. 
+(see bottom for removed code).
+Also reordered the CSS elements to be more functional in grouping.
+*/
+
+/*Added "alt" accessibility to icons and images. Additionally added a "title"
+to the background image to function similarly to an "alt"*/
+
+/*Changed footer heading attributes to better fit a proper header hierachy.
+Also updated CSS*/
+
+/*Small change to add a working "title" to <head>*/
+
+/*Made some changes to have a better overall layout, and to have a well
+maintained layout even when scaling*/
+
+/*Updated and improved CSS in response to feedback from grading staff*/
